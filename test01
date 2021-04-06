@@ -8,4 +8,5 @@ def solution(numbers):
             else:
                 answer.append(new_number)
     answer.sort()
+    pritn(answer)
     return answer

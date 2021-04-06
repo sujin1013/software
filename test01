@@ -2,7 +2,7 @@ def solution(numbers):
     answer = []
     for i in range(0,len(numbers)):
         for j in range(i+1,len(numbers)):
-            new_number = numbers[i] + numbers[j]
+            new_number = numbers[i] + numbers[j] + 1
             if new_number in answer:
                 continue
             else:
